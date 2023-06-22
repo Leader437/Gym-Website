@@ -70,11 +70,37 @@ const swiper = new Swiper('.feedback', {
 
 
 // FAQ'S
-let faqItem = document.querySelector('.faq-item');
-let faqBtn = document.querySelectorAll('.faq-btn');
+let faqItem1 = document.querySelector('.faq-item1');
+let faqItem2 = document.querySelector('.faq-item2');
+let faqItem3 = document.querySelector('.faq-item3');
+let faqItem4 = document.querySelector('.faq-item4');
 
-faqBtn.forEach(btn => {
-    btn.addEventListener('click', () => {
-        faqItem.classList.toggle('faq-open');
-    }); 
+let faqBtn1 = document.querySelector('.faq-btn1');
+let faqBtn2 = document.querySelector('.faq-btn2');
+let faqBtn3 = document.querySelector('.faq-btn3');
+let faqBtn4 = document.querySelector('.faq-btn4');
+
+faqBtn1.addEventListener('click', () => {
+    faqItem1.classList.toggle('faq-open');
+    faqItem2.classList.remove('faq-open');
+    faqItem3.classList.remove('faq-open');
+    faqItem4.classList.remove('faq-open');
+});
+faqBtn2.addEventListener('click', () => {
+    faqItem2.classList.toggle('faq-open');
+    faqItem1.classList.remove('faq-open');
+    faqItem3.classList.remove('faq-open');
+    faqItem4.classList.remove('faq-open');
+});
+faqBtn3.addEventListener('click', () => {
+    faqItem3.classList.toggle('faq-open');
+    faqItem1.classList.remove('faq-open');
+    faqItem2.classList.remove('faq-open');
+    faqItem4.classList.remove('faq-open');
+});
+faqBtn4.addEventListener('click', () => {
+    faqItem4.classList.toggle('faq-open');
+    faqItem1.classList.remove('faq-open');
+    faqItem2.classList.remove('faq-open');
+    faqItem3.classList.remove('faq-open');
 });
