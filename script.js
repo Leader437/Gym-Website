@@ -9,6 +9,18 @@ navBtn.addEventListener('click', () => {
 });
 
 
+// Remove navbar onclick of any nav button
+let navLinks = document.querySelectorAll('.nav__anchor');
+let navRemove = () => {
+    navBtn.classList.remove('cross')
+    navbar.classList.remove('open');
+}
+
+navLinks.forEach(btn => {
+    btn.addEventListener('click', navRemove); 
+});
+
+
 // slider
 const swiper = new Swiper('.feedback', {
     autoplay: {
