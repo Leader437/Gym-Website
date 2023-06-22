@@ -1032,6 +1032,36 @@ footer {
   text-transform: capitalize;
 }
 
+                                                            /*=============
+                                                            ===Arrow top===
+                                                            ============*/
+
+.arrow__top {
+  position: fixed;
+  right: 6vw;
+  bottom: 6vh;
+  background-color: var(--dark-sec-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7em;
+  z-index: 99999999;
+  display: none;
+  box-shadow: 2px 2px 5px 0px var(--main-color);
+}
+
+.arrow__top:active {
+  transform: translateY(0.2em);
+}
+
+.arrow__top img {
+  aspect-ratio: 1;
+  width: 3rem;
+}
+
+.arrow__visible {
+  display: block;
+}
+
                                                 /* ==============
                                                 ===Breakpoints===
                                                 ============== */
