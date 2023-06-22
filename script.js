@@ -9,6 +9,13 @@ navBtn.addEventListener('click', () => {
 });
 
 
+// arrow up
+window.onscroll = () => {
+    let arrowUp = document.querySelector('.arrow__top');
+    arrowUp.classList.toggle('arrow__visible', window.scrollY > 400);
+}
+
+
 // Remove navbar onclick of any nav button
 let navLinks = document.querySelectorAll('.nav__anchor');
 let navRemove = () => {
