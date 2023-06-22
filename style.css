@@ -1207,10 +1207,10 @@ footer {
   }
   .move-cards {
     width: 23%;
-    transition: width 0.3s;
+    /*transition: width 0.3s;*/
   }
   .move-cards:hover {
-    width: 40%;
+    /*width: 40%;*/
   }
   .move-card__para {
     opacity: 0;
