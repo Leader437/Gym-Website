@@ -338,18 +338,22 @@ nav {
 
 .move .move-cards:nth-child(1)::before {
   background-image: url("Assets/section-2/gym.jpg");
+  background-position: 40%;
 }
 
 .move .move-cards:nth-child(2)::before {
   background-image: url("Assets/section-2/zumba.jpg");
+  background-position: 60%;
 }
 
 .move .move-cards:nth-child(3)::before {
   background-image: url("Assets/section-2/martial-arts.jpg");
+  background-position: 80%;
 }
 
 .move .move-cards:nth-child(4)::before {
   background-image: url("Assets/section-2/yoga.jpg");
+  background-position: 60%;
 }
 
 .move-card__info {
