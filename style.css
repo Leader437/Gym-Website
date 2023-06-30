@@ -1,7 +1,8 @@
 :root {
   font-size: 10px;
   --main-color: #1e1e1e;
-  --dark-sec-color: #ff4601;
+  /*--dark-sec-color: #ff4601;*/
+  --dark-sec-color: #ff6a1a;
   --sec-color: #ff6a1a;
   --light-sec-color: rgb(234 88 12 / 40%);
   --white: #fff;
